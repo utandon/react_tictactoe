@@ -1,0 +1,33 @@
+body {
+  margin: 20px;
+  text-align: center;
+}
+h1 {
+  color: LightCoral;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+.cell-button {
+  margin-top: -2px;
+  margin-right: -2px;
+  border: 1px solid gray;
+  height: 150px;
+  width: 150px;
+  float: left;
+  font-weight: bold;
+  font-size: 60px;
+  color: CornflowerBlue;
+
+}
+.cell-button:focus {
+  outline: none;
+}
+.status-message {
+  margin-bottom: 20px;
+}
+.reset-button {
+  margin-top: 20px;
+  font-weight: bold;
+}
